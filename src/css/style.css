@@ -52,3 +52,20 @@ header nav ul li a{
 header nav ul li a:hover{
     color:var(--branco);
 }
+footer{
+    background-color: var(--color1);
+    color: var(--preto);
+    padding: 20px;
+    box-shadow: 0 9px 9px var(--color2);
+    border-radius: 50px;
+}
+.Contatos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--color4);
+    font-weight: 800;
+}
+.Contatos p:hover{
+    color:var(--branco);
+}
